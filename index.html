@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Freedom Airlines</title>
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/bootstrap-custom.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" rel="stylesheet">
+<link href="css/jquery.fancybox.min.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link href="img/favicon.ico" rel="shortcut icon">
+	
+</head>
+<body>
+	
+	<header>
+		<div class="container-fluid">
+			
+			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="index.html"><img src="img/freedom_white.png" alt="freedom" class="img-fluid"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbar">
+    <ul class="navbar-nav mx-auto">
+      <li class="nav-item"> </li>
+		<li class="nav-item">
+        <a class="nav-link" href=" ">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Agenda de viajes</a>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link" href="#">Promociones</a>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link" href="#">Quienes somos</a>
+      </li>
+	  
+    </ul>
+  </div>
+</nav>
+			
+		</div>
+	</header>
+
+	<section id="hero">
+	<div class="overlay-hero">
+		<div class="container">
+		  <h3>Una infraestructura de primera clase, una exelente experiencia en negocios y ciencia, fuerza inovadora, historia, cultura y destinos de reuniones, congresos y viajes turísticos del mundo</h3>
+		    <a href="#" class="btn btn-vermas">Ver Más</a>
+		</div>
+	</div>
+</section>
+	
+	
+	<section id="imagenes" class="section">
+		<div class="container">
+			<div class="row">
+				
+				<article class="col-md-4 col-sm-12">
+					<a><img src="img/alemania.png" class="img-fluid" alt="gerflag"></a>
+					<a href="#" class="btn btn-cultura">Historia</a>
+				</article>
+				
+				<article class="col-md-4 col-sm-12">
+					<a><img src="img/Some-interesting-facts-about-Germany.jpg" class="img-fluid" alt="arc"></a>
+					<a href="#" class="btn btn-cultura">Cultura</a>
+				</article>
+				
+				<article class="col-md-4 col-sm-12">
+					<a><img src="img/castle.jpg" class="img-fluid" alt="castle"></a>
+					<a href="#" class="btn btn-cultura">Lugares</a>
+				</article>
+			</div>
+			
+		</div>
+	</section>
+	
+	<section id="call">
+		<div class="container">
+			<h1>¡Viaja ya <br>con nosotros!</h1>
+			 <a href="formulario.html" class="btn btn-call">Regístrate</a>
+		</div>
+	</section>
+	
+	<footer>
+	<div class="container">
+		<p>Freadom Airlines always on time on target</p>
+		<p>Derechos reservados &copy; 2022 -<b>Freedom Airways-Diseño web II</b></p>
+	</div>
+</footer>
+
+	
+	
+
+<!-- jQuery -->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/jquery.nav.js"></script>
+<script src="js/jquery.fancybox.min.js"></script>
+<script>
+	$(function() {
+
+		
+		$('#navbar').onePageNav({
+			currentClass: 'active',
+			scrollSpeed: 1000,
+			easing: 'swing'
+		});
+		
+		$(window).on('scroll', function () {
+			if ($(window).scrollTop() > 48) {
+				$('.header-area').addClass('sticky');
+			} else {
+				$('.header-area').removeClass('sticky');
+			}
+        });
+
+	});
+</script>
+	
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-SHJM44RQ6K"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-SHJM44RQ6K');
+</script>
+
+</body>
+
+</html>
